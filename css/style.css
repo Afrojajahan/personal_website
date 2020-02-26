@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+    padding:0 ;
+}
+section{
+    height: 600px;
+}
+.header-top{
+    background-image: url(../images/header-bg.png);
+    background-repeat: no-repeat;
+    background-position: top;
+
+}
+.container{
+    margin: 0px 50px;
+    padding-top: 50px;
+}
+.hello{
+   font-size: 25px; 
+   margin: 2px;
+   
+}
+.name{
+    color: mediumvioletred;
+    font-size: 45px;
+    font-weight: bold;
+    margin: 0px;
+    padding-bottom: 10px; 
+    
+}
+.intro{
+    float: left;
+    width: 500px;
+    margin-left: 200px;
+    margin-top: 200px;
+
+}
+.details{
+    padding-bottom: 30px;
+}
+.my-pic1 img{
+    height: 500px;
+    width: 500px;
+
+}
+
+.intro a{
+    background-color: mediumvioletred;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 4%;
+    font-size: 16px;
+    margin-top:40px ;
+}
+.intro a:hover{
+    background-color: orange;
+    color: white;
+    font-weight: 700;
+}
+/* header-middle */
+.header-middle{
+    background-image: url(../images/biography-bg.png);
+    background-repeat: no-repeat;
+}
+.my-pic2{
+    float: left;
+    width: 500px;
+    margin-left: 200px;
+}
+.my-pic2 img{
+    height: 500px;
+    width: 500px;
+}
+.bio{
+    width: 500px;
+    float: right;
+    margin-top: 100px;
+    padding-top: 50px;
+
+}
+.bio a{
+    background-color: mediumvioletred;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 4%;
+}
+.bio a:hover{
+    background-color: orange;
+    color: white;
+    font-weight: 700;
+}
+/*  */
+
+.header-latest{
+    background-image: url(../images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    
+}
+.container-latest{
+    margin:0px 180px;
+     padding-top: 50px;
+}
+.latest-paragraph{
+    margin:30px 400px;
+}
+.work-pic img{
+    float: left;
+    width: 300px;
+    padding:10px;
+
+}
+
+/* client */
+.client{
+    background-image: url(../images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: middle;
+}
+.container-client{
+    
+     padding-top: 50px;
+     text-align: center;
+}
+.moccy{
+
+    text-align: center;
+}
+.moccy h5{
+    /* margin-top: 40px; */
+    margin:0px;
+}
+.footer-paragraph{
+    color: black;
+}
+.founder{
+    color:#BABABA ;
+    margin: 0px;
+    padding-top: 5px;
+}
+.client-paragraph{
+    background-color:mediumvioletred;
+    width: 400px;
+    height: 100px;
+    margin: 40px 480px 100px 480px;
+    color: white;
+    text-align: center;
+    border-radius: 3%;
+
+}
+.client-paragraph h5{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin: 0px;
+}
+.client-paragraph h4{
+    font-size: 20px;
+    margin: 0px;
+}
+.bottom{
+    color:#BABABA ;
+   padding-bottom: 10px;
+}
