@@ -1,6 +1,8 @@
 body{
     margin: 0;
     padding:0 ;
+    font-family: 'Tomorrow';
+
 }
 section{
     height: 600px;
@@ -66,7 +68,7 @@ section{
 .my-pic2{
     float: left;
     width: 500px;
-    margin-left: 200px;
+    margin-left: 150px;
 }
 .my-pic2 img{
     height: 500px;
@@ -103,7 +105,7 @@ section{
      padding-top: 50px;
 }
 .latest-paragraph{
-    margin:30px 400px;
+    margin:50px 400px;
 }
 .work-pic img{
     float: left;
@@ -111,16 +113,45 @@ section{
     padding:10px;
 
 }
+/*        */
+.dream{
+     background: url(../images/header-bg.png);
+    background-position: left; 
+    
+}
+.dream-container{
+    padding-top:150px ;
+   
+}
+.dream-paragraph{
+    text-align: center;
+}
+.full-width{
+    width:500px;
+    margin:0px 430px;
+    padding: 10px 0px;
+    text-align: center;
+    box-shadow: 5px 2px 5px 2px #000;
+    
+}
 
+#full-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(mediumvioletred, blue);
+    border-image-slice: 1;
+}
+.highlight{
+    color: mediumvioletred;
+}
 /* client */
 .client{
     background-image: url(../images/footer-bg.png);
     background-repeat: no-repeat;
-    background-position: middle;
+    background-position: left;
+    /* height: 200px; */
 }
 .container-client{
-    
-     padding-top: 50px;
+     padding-top: 150px;
      text-align: center;
 }
 .moccy{
@@ -128,7 +159,7 @@ section{
     text-align: center;
 }
 .moccy h5{
-    /* margin-top: 40px; */
+   
     margin:0px;
 }
 .footer-paragraph{
@@ -143,7 +174,7 @@ section{
     background-color:mediumvioletred;
     width: 400px;
     height: 100px;
-    margin: 40px 480px 100px 480px;
+    margin: 40px 480px 120px 480px;
     color: white;
     text-align: center;
     border-radius: 3%;
@@ -160,5 +191,5 @@ section{
 }
 .bottom{
     color:#BABABA ;
-   padding-bottom: 10px;
+    margin: 0px;
 }
